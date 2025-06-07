@@ -1,0 +1,29 @@
+.breadcrum {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Slightly increased gap for better spacing */
+    color: #4a4a4a; /* Darkened color for better contrast */
+    font-size: 14px; /* Slightly reduced size for a more subtle breadcrumb */
+    font-weight: 500; /* Adjusted font-weight for a lighter look */
+    margin: 40px 10%; /* Changed to percentage for responsive design */
+    text-transform: capitalize;
+}
+
+.breadcrum img {
+    width: 12px; /* Adjusted size of the arrow icon */
+    height: auto;
+    opacity: 0.7; /* Slightly faded the arrow for subtlety */
+}
+
+.breadcrum:hover img {
+    opacity: 1; /* Arrow becomes fully opaque on hover */
+}
+
+.breadcrum span {
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.breadcrum span:hover {
+    color: #ff4141; /* Add a hover color effect */
+}
